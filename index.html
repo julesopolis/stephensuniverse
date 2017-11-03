@@ -50,9 +50,6 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
@@ -63,7 +60,7 @@
       </div>
     </nav>
 
-<section>  <div id='map-one' class='map'> </div>
+<div id='map-one' class='map'> </div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiamFiaWdnczEzIiwiYSI6ImNpdTl0enV1YTAwMDEydG1wZ3YzNDF1ZWEifQ.qwYjWrKbWIewPCKcqQc6sw';
 var mapOne = L.mapbox.map('map-one', 'mapbox.dark')
@@ -459,13 +456,12 @@ myLayer.on('layeradd', function(e) {
 myLayer.setGeoJSON(geojson);
 mapOne.scrollWheelZoom;
 </script>
-    </section>
    
 
 
   
     
-
+<div>
     <!-- Footer -->
     <footer class="text-center">
       <div class="footer-above">
@@ -524,7 +520,8 @@ mapOne.scrollWheelZoom;
         </div>
       </div>
     </footer>
-
+    </div>
+    
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top d-lg-none">
       <a class="btn btn-primary js-scroll-trigger" href="#page-top">
